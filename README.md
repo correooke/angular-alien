@@ -42,7 +42,9 @@ En la vista de lista de nombres se puede hacer click entrando a un detalle del p
 ## TODO
 
 - Mejor manejo de errores
-- Mostrar información extra de profesiones
+- Test Unitarios
+- Test e2e
+- Mostrar información extra (de profesiones)
 
 ## Librerias utilizadas
 
