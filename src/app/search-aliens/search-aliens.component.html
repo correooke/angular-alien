@@ -1,0 +1,12 @@
+<form class="search-aliens-container">
+  <mat-form-field class="search-field">
+    <input matInput  
+      #alienSearch 
+      placeholder="Búsqueda Alien"
+      (keyup)="onSearch(alienSearch.value)"
+      [formControl]="searchField" 
+      type="search" 
+      name="alienSearch" 
+      id="">
+  </mat-form-field>
+</form>

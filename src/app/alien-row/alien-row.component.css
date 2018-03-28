@@ -1,0 +1,11 @@
+.alien-row {
+    font-size: 14px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.alien-ref {
+    width: 40px;
+    color: red;
+    display: inline-block;
+}

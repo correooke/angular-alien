@@ -1,0 +1,18 @@
+<div class="alien-list-container">
+  <div *ngIf="aliens.length < 15; else elseBlock">
+    <mat-list>
+      <li *ngFor="let alien of aliens | slice:1:20">
+        <app-alien-info [alien]="alien"></app-alien-info>
+      </li>
+    </mat-list>
+  </div>
+  
+  <ng-template #elseBlock>
+    <mat-list>
+      <mat-list-item *ngFor="let alien of aliens | slice:1:100">
+        <app-alien-row [alien]="alien"></app-alien-row>
+      </mat-list-item>
+    </mat-list>
+    <p *ngIf="aliens.length > 100">Muchos resultados, por favor, refine la búsqueda</p>
+  </ng-template>
+</div>

@@ -1,0 +1,15 @@
+.filter-container {
+    
+
+}
+
+.filter {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.filter-header {
+    width: 100%;
+}
+
